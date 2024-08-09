@@ -1,0 +1,61 @@
+.login-title {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 2.5rem;
+}
+
+.login-form {
+  margin: 2rem auto;
+  max-width: 30rem;
+  display: grid;
+  background: gainsboro;
+  border: 1px solid navajowhite;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.signup-form button {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+  width: 6rem;
+  padding: 0.5rem;
+}
+
+.login-form button {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  justify-self: flex-end;
+  background: darkslategray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.login-form button:active,
+.login-form button:hover {
+  color: darkslategray;
+  background: black;
+}
+
+.login-form__hr {
+  background: black;
+  color: black;
+  width: 80%;
+  justify-self: center;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.login-form__signup {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.2rem 0;
+  justify-self: center;
+}
+
+.login-form__signup:hover,
+.login-form__signup:active {
+  color: darkslategray;
+}

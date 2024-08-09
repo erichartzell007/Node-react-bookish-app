@@ -1,0 +1,38 @@
+.form-control {
+  display: grid;
+  grid-template-areas:
+    "label field"
+    ". error";
+  grid-template-columns: 8rem auto;
+  margin: 1rem;
+}
+
+.form-control__label {
+  font-weight: bold;
+  grid-area: label;
+  align-self: center;
+  color: darkslategrey;
+}
+
+.form-control__field {
+  grid-area: field;
+  border: 1px solid burlywood;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.form-control__field:focus {
+  outline: none;
+  background: rgb(250, 201, 136);
+}
+
+.form-control__field__error {
+  border: 1px solid red;
+  background: rgb(235, 122, 122);
+}
+
+.form-control__error {
+  color: red;
+  grid-area: error;
+  justify-self: center;
+}

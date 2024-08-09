@@ -1,0 +1,31 @@
+.addbook-title {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 2.5rem;
+}
+
+.addbook-form {
+  margin: 2rem auto;
+  max-width: 30rem;
+  display: grid;
+  background: gainsboro;
+  border: 1px solid navajowhite;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.addbook-form button {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  justify-self: flex-end;
+  background: darkslategray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.addbook-form button:active,
+.addbook-form button:hover {
+  color: darkslategray;
+  background: black;
+}

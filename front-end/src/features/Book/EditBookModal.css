@@ -1,0 +1,65 @@
+.modal {
+  position: fixed;
+  z-index: 200;
+  top: 10%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.editbook-title {
+  text-align: center;
+  color: darkslategrey;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.editbook-form {
+  display: grid;
+  background: gainsboro;
+  border: 1px solid navajowhite;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.editbook-form button {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  justify-self: flex-end;
+  background: darkslategray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.editbook-form button:active,
+.editbook-form button:hover {
+  color: darkslategray;
+  background: black;
+}
+
+.modal__action--negative {
+  background: red !important;
+  border-color: red !important;
+  margin-top: 5px !important;
+  margin-right: 5px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  padding: 5px !important   ;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff5454 !important;
+  border-color: #ff5454 !important;
+}
